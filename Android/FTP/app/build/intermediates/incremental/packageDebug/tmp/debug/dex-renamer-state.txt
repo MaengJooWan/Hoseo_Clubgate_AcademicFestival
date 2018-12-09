@@ -1,0 +1,4 @@
+#Wed Oct 10 10:33:15 KST 2018
+base.0=E\:\\18Gate\\AcademicFestival\\Android\\FTP\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
