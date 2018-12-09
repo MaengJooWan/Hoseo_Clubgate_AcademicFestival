@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/inputWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:hint="Search"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="210dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:text="@string/searchBtn"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/searchBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="260dp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/resultBox"
+            android:layout_height="400dp"
+            android:layout_width="200dp"
+            android:width="200dp"
+            android:height="800dp"
+            android:textSize="15dp"
+            android:layout_margin="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="안녕하세요 Hot Issue 입니다."/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
